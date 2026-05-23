@@ -179,7 +179,7 @@ function Chat() {
               <AvatarFallback className={"text-xs"}>AB</AvatarFallback>
             </Avatar>
             <div className="leading-tight ">
-              <div className="text-sm font-medium">Liza Support</div>
+              <div className="text-sm font-medium">Riya Support</div>
               <div className="text-xs text-muted-foreground">
                 Online • Typing...
               </div>

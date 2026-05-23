@@ -18,10 +18,11 @@ public class AiConfig {
 	
 	private Logger logger=LoggerFactory.getLogger(AiConfig.class);
 	
-	public JdbcChatMemoryRepository jdbcChatMemoryRepository()
-	{
-		return JdbcChatMemoryRepository.builder().build();
-	}
+//	public JdbcChatMemoryRepository jdbcChatMemoryRepository()
+//	{
+//		return JdbcChatMemoryRepository.builder()
+//				.jdbcTemplate().build();
+//	}
 	@Bean
 	public ChatClient chatClient(ChatClient.Builder builder,JdbcChatMemoryRepository jdbcChatMemoryRepository)
 	{

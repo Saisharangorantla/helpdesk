@@ -25,7 +25,7 @@ public class AiServiceImpl implements AiService {
 	@Autowired
 	private EmailTool et;
 	
-	@Value("calsspath:/helpdesk-system.st")
+	@Value("classpath:/helpdesk-system.st")
 	private Resource systemPromptResout;
 	
 	@Autowired
